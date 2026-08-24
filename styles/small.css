@@ -1,0 +1,9 @@
+/**Border-Box**/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
