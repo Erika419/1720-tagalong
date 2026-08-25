@@ -1,1 +1,10 @@
-console.log("nav is linked and working")
+
+//Store the selected elements that we are going to use
+const hambutton= document.querySelector('#hamburger')
+const mainnav= document.querySelector('#hamburger')
+
+//Toggle the Show Class on and off
+hambutton.addEventListener('click', () =>{
+    mainnav.classList.toggle('show')
+    hambutton.classList.toggle('show')
+})
