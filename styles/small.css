@@ -4,15 +4,66 @@
     box-sizing: border-box;
 }
 
+/**body tag**/
 body{
     font-family: "Josefin Sans", sans-serif;
 }
 
+/**header tag**/
 header{
     padding: 10px 0 10px 10px;
     border-bottom: solid 1px #ddd;
+    display: grid;
+    align-items: end;
+    column-gap: 8px;
+    grid-template-columns: 24px auto 44px;
+}
+
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
 }
 
 header span{
     color: #232323;
+}
+
+/**navigation tag**/
+nav{ 
+    background-color: #eee;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:#232323;
+    text-decoration: none;
+    padding: 0.85rem 10px;
+}
+
+nav a:hover{
+    background-color:#bbb;
+}
+
+/**Hamburger Stuff tag**/
+.hamburger{
+    background: none;
+    border:none;
+    color:#232323;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.hamburger::before{
+    content: "\2630";
+
 }
