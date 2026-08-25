@@ -1,5 +1,16 @@
 @media only screen and (min-width: 40rem) {
-    body{
-        
+
+    /**Navigation Stuff tag**/
+    nav{
+        display: block;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    /**Hamburger Stuff tag**/
+    .hamburger{
+        display:none;
     }
 }
