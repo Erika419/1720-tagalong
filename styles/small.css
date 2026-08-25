@@ -7,3 +7,12 @@
 body{
     font-family: "Josefin Sans", sans-serif;
 }
+
+header{
+    padding: 10px 0 10px 10px;
+    border-bottom: solid 1px #ddd;
+}
+
+header span{
+    color: #232323;
+}
