@@ -97,6 +97,7 @@ nav.show{
         border-radius:10px;
         box-shadow: 0 0 10px #aaa;
         margin: 0.5rem 10px;
+        overflow: hidden;
     }
 
     .sbs h2{
@@ -119,6 +120,7 @@ nav.show{
         display: block;
         width:100%;
         height:100%;
+        object-fit: cover;
     }
 
 

@@ -1,5 +1,10 @@
 @media only screen and (min-width: 40rem) {
 
+    header, main, nav, footer{
+        max-width:1200px;
+        margin: 0 auto;
+    }
+
     /**Navigation Stuff tag**/
     nav{
         display: block;
@@ -28,5 +33,11 @@
     /**Hamburger Stuff tag**/
     .hamburger{
         display:none;
+    }
+
+    /**Main Stuff tag**/
+    .sbs{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
