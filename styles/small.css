@@ -170,7 +170,7 @@ nav.show{
         margin: 0 10% 10px 10%;
         text-align: center;
         border-radius: 20px;
-        &hover{
+        &:hover{
             background-color:#dbd7b2;
             transform: translateY(2px);
             box-shadow: 0 0 10px #999;
