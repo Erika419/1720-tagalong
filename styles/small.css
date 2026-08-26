@@ -84,6 +84,44 @@ nav.show{
 
 }
 
+/**main stuff tag**/
+    h1{ 
+        font-size:1.5rem;
+        color:#3D405B;
+        font-weight:500;
+        margin-left:10px;
+    }
+
+    .sbs section{
+        border: 1px solid #eee;
+        border-radius:10px;
+        box-shadow: 0 0 10px #aaa;
+        margin: 0.5rem 10px;
+    }
+
+    .sbs h2{
+        background-color: rgb(119, 197, 223);
+        color: #232323;
+        font-weight: 400;
+        font-size:1.25rem;
+        margin: 0;
+        padding: 0.5rem 0.2rem;
+        text-align: center;
+    }
+
+    .sbs p{
+        font-weight: 200;
+        margin: 10px;
+        line-height: 130%;
+    }
+
+    .sbs img{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+
+
 /**social media tag**/
     .social{
         display:flex;
