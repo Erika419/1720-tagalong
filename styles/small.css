@@ -123,6 +123,59 @@ nav.show{
         object-fit: cover;
     }
 
+    /**Assigment Card tag**/
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        gap:50px 10px;
+        margin:10px;
+    }
+
+    .cards section{
+        border:1px #ccc solid;
+        border-radius:10px;
+        overflow:hidden;
+    }
+
+    .cards h2{
+        background-color:#b9b595;
+        color: rgb(0,0,0,0.8);
+        font-weight: 400;
+        font-size:1.25rem;
+        margin:0;
+        padding: 05rem 0.2rem;
+        text-align: center;
+    }
+
+    .cards p{ 
+        font-weight:200;
+        margin:10px 10px;
+        line-height: 130%;
+        text-align: center;
+    }
+
+        .cards img{
+        display: block;
+        width:100%;
+        height: auto;
+    }
+
+    .cards a{
+        background-color:#b9b595;
+        color: rgb(0,0,0,0.7);
+        text-decoration: none;
+        display: block;
+        width: 80%;
+        padding:10px;
+        margin: 0 10% 10px 10%;
+        text-align: center;
+        border-radius: 20px;
+        &hover{
+            background-color:#dbd7b2;
+            transform: translateY(2px);
+            box-shadow: 0 0 10px #999;
+        }
+    }
 
 /**social media tag**/
     .social{
