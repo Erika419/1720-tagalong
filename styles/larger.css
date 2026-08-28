@@ -9,13 +9,15 @@
     nav{
         display: block;
         color:#eee;
+        border-left: solid 1px rgba(245, 242, 242, 0.2);
+        border-bottom: solid 1px #666;  
+        border-top: solid 1px #666;
     }
 
     nav ul{
         display: flex;
         margin: 10px;
         list-style-type: none;
-        color:#eee;
     }
 
     nav a{
