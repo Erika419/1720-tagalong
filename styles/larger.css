@@ -14,19 +14,21 @@
         display: flex;
         margin: 10px;
         list-style-type: none;
+        color:#eee;
     }
 
     nav a{
         border-left: solid 1px rgba(245, 242, 242, 0.2);
         padding: .4rem 20px;
         color: #666;
-        border-bottom: solid 1px #ddd;    
+        border-bottom: solid 1px #666;    
         text-decoration: none;
     }
 
 
     nav a:hover{
     text-decoration: underline;
+    background-color: #666;
     }
 
     nav li:last-child a{
