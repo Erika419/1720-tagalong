@@ -94,6 +94,21 @@ nav.show{
 
 }
 
+/**hero image tag**/
+.hero{
+    display:block;
+    width:100%;
+    padding: 0 10px;
+}
+
+.hero img{
+    display:block;
+    width:100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
 /**main stuff tag**/
     h1{ 
         font-size:1.5rem;
