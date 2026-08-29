@@ -94,9 +94,6 @@ nav.show{
 
 }
 
-
-
-
 /**main stuff tag**/
     h1{ 
         font-size:1.5rem;
@@ -233,6 +230,7 @@ nav.show{
     display:block;
     width:100%;
     padding: 0 10px;
+    position: relative;
 }
 
 .hero img{
@@ -240,5 +238,12 @@ nav.show{
     width:100%;
     height: auto;
     border-radius: 6px;
+}
+
+.hero a{
+    position:absolute;
+    bottom: 20px;
+    right:40px;
+    text-decoration: none;
 }
 
