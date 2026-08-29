@@ -251,6 +251,9 @@ nav.show{
     border-radius: 99px;
     border: solid 1px #aaa;
     box-shadow: 0 0 10px #222;
-    font-size: 5vw;
+    font-size: 1.5rem;
+    &:hover{
+        background-color: #0b5379;
+    }
 }
 
